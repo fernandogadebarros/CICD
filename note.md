@@ -42,3 +42,10 @@ branches:
 Como criar sua primeira actions no Github Actions;
 Como configurar uma action de CI para aplicar configurações de linter sempre que uma pull request for criada ou alterada;
 Como fazer deploy na vercel e configurar um ambiente para rodar uma action de CD.
+
+# Modulo 03
+
+Como configurar um novo job de preview no Github Actions;
+Como fazer um sistema de preview baseado no que a vercel faz com os projetos hospedados nela;
+Como exibir uma mensagem informando o link com a url de preview do seu projeto;
+Como fazer um comentário no Github via Github Actions.
