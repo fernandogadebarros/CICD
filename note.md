@@ -2,6 +2,8 @@
 
 ### Para saber mais
 
+npx vercel ./build --name projeto-cicd
+
 Podemos configurar a execução de fluxos de trabalho quando uma atividade específica acontece no Github em um período agendado ou quando acontece fora dele como um evento externo. Os acionadores de fluxo de trabalho são eventos que fazem com que um fluxo de trabalho seja executado.
 
 Alguns eventos têm vários tipos de atividades. Para esses eventos, você pode especificar quais tipos de atividade executam um fluxo de trabalho. Alguns deles são:
@@ -28,8 +30,15 @@ Ou então, podemos usar o filtro branches para quando alguém fizer um push para
 
 on:
 push:
-branches:  
- - 'main' - 'releases/\*\*'COPIAR CÓDIGO
-Existem diversos eventos que acionam um fluxo de trabalho e se você quiser saber mais sobre eles vou deixar o link da documentação do Github Actions.
+branches:
+
+-   'main' - 'releases/\*\*'COPIAR CÓDIGO
+    Existem diversos eventos que acionam um fluxo de trabalho e se você quiser saber mais sobre eles vou deixar o link da documentação do Github Actions.
 
 (https://docs.github.com/pt/actions/using-workflows/events-that-trigger-workflows)
+
+### O que aprendemos
+
+Como criar sua primeira actions no Github Actions;
+Como configurar uma action de CI para aplicar configurações de linter sempre que uma pull request for criada ou alterada;
+Como fazer deploy na vercel e configurar um ambiente para rodar uma action de CD.
