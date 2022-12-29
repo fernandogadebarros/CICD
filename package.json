@@ -9,6 +9,14 @@
         "build": "next build",
         "export": "rm -rf build && next export && mv ./out ./build",
         "start": "next start",
-        "lint": "next lint"
+        "lint": "next lint",
+        "lint:fix": "next lint --fix"
+    },
+    "devDependencies": {
+        "eslint": "8.30.0",
+        "eslint-config-next": "13.1.1",
+        "eslint-config-prettier": "^8.5.0",
+        "eslint-plugin-prettier": "^4.2.1",
+        "prettier": "^2.8.1"
     }
 }
