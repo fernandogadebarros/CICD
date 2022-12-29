@@ -12,8 +12,8 @@
         "lint": "next lint",
         "lint:fix": "next lint --fix",
         "deploy": "npx vercel ./build --name projeto-cicd",
-        "deploy:prod": "yarn deploy:staging --prod",
         "deploy:staging": "yarn build && vercel ./build --confirm --no-clipboard --token=$VERCEL_TOKEN",
+        "deploy:prod": "yarn deploy:staging --prod",
         "deploy:preview": "node ./scripts/pullRequestPreview"
     },
     "devDependencies": {

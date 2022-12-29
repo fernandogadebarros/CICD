@@ -7,7 +7,7 @@ const outpuLines = output.split("\n");
 const DEPLOY_URL = outpuLines[outpuLines.length - 1];
 console.log("[DEPLOY_PREVIEW: END");
 console.log(`You can see the deploy preview on: ${DEPLOY_URL}`);
-console.log(output);
+// console.log(output);
 
 // console.log("[GITHUB_COMMENT: START");
 // console.log("[GITHUB_COMMENT: END");
